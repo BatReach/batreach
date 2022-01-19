@@ -3,6 +3,8 @@
   command = "npm run generate"
   functions = "netlify/functions"
   publish = "dist"
+  environment = { NODE_VERSION = "14.18.2" }
+
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
