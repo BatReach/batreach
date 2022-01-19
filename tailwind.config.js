@@ -21,7 +21,7 @@ module.exports = {
     extend: {
       // to change or add fonts, see also nuxt.config.js -> webfontloader
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: {

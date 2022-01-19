@@ -25,14 +25,6 @@
           <p class="text-xl text-gray-500">
             {{ cData.aboutText }}
           </p>
-
-          <!-- <div class="flex justify-start pt-4">
-            <img
-              class="h-64"
-              src="../static/img/logo-orig-512.png"
-              alt="BatReach Logo"
-            />
-          </div> -->
         </div>
         <div class="lg:col-span-2">
           <ul

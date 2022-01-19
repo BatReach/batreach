@@ -15,7 +15,6 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
         hid: 'netlify-identity-widget',
@@ -77,7 +76,7 @@ export default {
 
   // Doc https://github.com/nuxt-community/google-gtag-module
   'google-gtag': {
-    id: 'G-LNYW3JRWXF',
+    // id: 'G-LNYW3JRWXF',
     config: {
       anonymize_ip: true, // anonymize IP
       send_page_view: false, // might be necessary to avoid duplicated page track on page reload
@@ -98,7 +97,7 @@ export default {
   },
 
   'rfg-icon': {
-    masterPicture: 'static/img/logo-lg.png',
+    masterPicture: 'static/logo-bat-only.png',
   },
 
   formulate: {
@@ -107,7 +106,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Inter:400,700,900&display=swap'], // Loads Lato font with weights 400 and 700
+      families: ['Poppins:400,700,900&display=swap'], // Loads Lato font with weights 400 and 700
     },
   },
 
