@@ -1,0 +1,27 @@
+{
+  "h2": "Care, Conserve and Community",
+  "heading": "What do we do? ",
+  "subHeading": "We work with bat carers, conservation groups and governments and engage with the community to conserve the Spectacled Flying-fox and enable people to live peacefully with all bats.",
+  "subSections": [
+    {
+      "heading": "Founding member of the Spectacled Flying Fox Recovery Team",
+      "text": "The Spectacled flying-fox is listed as Endangered internationally on the IUCN Red List, nationally under the EPBC Act and under Queensland’s threatened species legislation. The Australian population has fallen by over 80% since 2004.\n\nAs a member of the recovery team, we nominated to uplist the SFF to critically endangered and are preparing  a new recovery plan with specific actions and funding to recover the population.",
+      "btnLabel": "Learn more",
+      "img": "/img/fox2.jpg"
+    },
+    {
+      "heading": "We work with local rescue groups, other recovery teams",
+      "text": "Each year more than one hundred flying-foxes enter care either as  orphaned pups or as injured adults and may be in care for up to six months. Feeding and medications are expensive.\n\nWe advocate for bat carers and assist them financially through donations we receive.\n\nHelp us help bats by donating, planting a tree and/or by reporting where you see flying-foxes to our Save Our Flying-foxes Watch program\n",
+      "btnLabel": "Report Flying-fox Sighting",
+      "btnUrl": "https://www.surveymonkey.com/r/2C7BMN8",
+      "img": "/img/fox4.jpg"
+    },
+    {
+      "heading": "Community and school education",
+      "text": "We engage with the community to raise public awareness through community events and school talks. \n\nTo book a talk for your community group or school contact our secretary using our Contact Form",
+      "btnLabel": "Book a talk - Contact Us",
+      "btnUrl": "/contact",
+      "img": "/img/fox9.jpg"
+    }
+  ]
+}

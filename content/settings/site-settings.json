@@ -1,0 +1,56 @@
+{
+  "facebook": "BatReach",
+  "footerText": "© 2021 BatReach, Kuranda, QLD. Built with ❤️ and 🦇",
+  "nav_left_button": {
+    "label": "Donate via Patreon",
+    "url": "https://patreon.com/BatReach"
+  },
+  "orgName": "BatReach",
+  "instagram": "batsandtreessocietyofcairns",
+  "twitter": "BatReach",
+  "navigation": [
+    {
+      "label": "What do we do?",
+      "url": "/#what-we-do"
+    },
+    {
+      "label": "Events",
+      "url": "/#events"
+    },
+    {
+      "label": "FAQ",
+      "url": "/#faq"
+    },
+    {
+      "label": "Team",
+      "url": "/#team"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact"
+    }
+  ],
+  "footerAddress": "P.O Box 528, Kuranda, Queensland, 4881. Australia",
+  "footerLinks": [
+    {
+      "label": "What do we do?",
+      "url": "/#what-we-do"
+    },
+    {
+      "label": "Upcoming Events",
+      "url": "/#events"
+    },
+    {
+      "label": "FAQ",
+      "url": "/#faq"
+    },
+    {
+      "label": "Our Team",
+      "url": "/#team"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact"
+    }
+  ]
+}

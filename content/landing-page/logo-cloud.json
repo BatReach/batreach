@@ -1,0 +1,24 @@
+{
+  "logos": [
+    {
+      "alt": "Bat Society of Cairns",
+      "img": "/img/logo-batsoc.png",
+      "url": "https://www.batsoc.org.au"
+    },
+    {
+      "alt": "Far North Queensland Wildlife Rescue Association (FNQWR)",
+      "img": "/img/logo-fnqwildliferescue.svg",
+      "url": "https://www.fnqwildliferescue.org.au/"
+    },
+    {
+      "alt": "Queensland Government",
+      "img": "/img/logo-environment.des.qld.gov.au.svg",
+      "url": "https://environment.des.qld.gov.au/wildlife/animals/living-with/bats/flying-foxes"
+    },
+    {
+      "alt": "Tolga Bat Hospital",
+      "img": "/img/logo-tolgabathospital.png",
+      "url": "https://tolgabathospital.org"
+    }
+  ]
+}
