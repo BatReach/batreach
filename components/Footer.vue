@@ -39,7 +39,7 @@
       </div>
       <p class="mt-8 text-base text-center text-gray-200">
         {{ siteSettings.orgName }} <br />
-        {{ siteSettings.footerAddress }}
+        {{ siteSettings.orgAddress }}
       </p>
       <p class="mt-8 text-base text-center text-gray-200">
         {{ siteSettings.footerText }}

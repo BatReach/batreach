@@ -5,8 +5,12 @@
     "title": "Contact Us",
     "description": "Contact BatReach"
   },
-  "h1": "Get in touch",
-  "subH1": "Want to help with a bat event, learn to give presentations, train as a volunteer carer,  support our committee or want further information? Message us.",
-  "h2": "Help us save the flying-foxes",
-  "subH2": "We’d love to hear from you! Send us a message using the form. "
+  "h1": "Contact us / Volunteer",
+  "subH1": "We need YOUR help! We always need more volunteers to rehabilitate those adorable rescue orphans. Help save the rainforest — volunteer today!",
+  "h2": "Volunteer today & live in the rainforest",
+  "subH2": "Send us a message using the form. ",
+  "addressH2": "Location & Map",
+  "addressSubH2": "Visit us to learn more about BatReach and the bats of Far North Queensland.",
+  "mapLink": "https://goo.gl/maps/vFBXCrVWDEXisQnP8",
+  "mapImg": "/img/map.png"
 }

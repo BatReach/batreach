@@ -1,13 +1,12 @@
 {
-  "facebook": "BatReach",
   "footerText": "© 2021 BatReach, Kuranda, QLD. Built with ❤️ and 🦇",
   "nav_left_button": {
-    "label": "Donate via Patreon",
-    "url": "https://patreon.com/BatReach"
+    "label": "Volunteer & Live in the rainforest",
+    "url": "contact"
   },
-  "orgName": "BatReach",
-  "instagram": "@Batreach",
-  "twitter": "@BatReach",
+  "orgName": "BatReach Rescue and Rehabilitation Centre, kuranda",
+  "instagram": "bat.reach",
+  "facebook": "batreachkuranda",
   "navigation": [
     {
       "label": "What do we do?",
@@ -30,7 +29,7 @@
       "url": "/contact"
     }
   ],
-  "footerAddress": "P.O Box 528, Kuranda, Queensland, 4881. Australia",
+  "orgAddress": "PO Box 300, Kuranda, Queensland 4881, Australia",
   "footerLinks": [
     {
       "label": "What do we do?",

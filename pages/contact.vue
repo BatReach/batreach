@@ -26,7 +26,7 @@
 -->
   <main class="min-h-screen bg-white">
     <!-- Header -->
-    <div class="py-24 bg-gray-50 sm:py-32">
+    <div class="py-24 bg-gray-50 sm:py-20">
       <div
         class="
           max-w-md
@@ -228,52 +228,70 @@
       </div>
     </div>
 
-    <!-- CTA Section -->
-    <div class="bg-primary-400">
+    <!-- Map Section -->
+    <div class="relative bg-primary-700">
+      <div class="lg:absolute lg:inset-0">
+        <a
+          :href="contactData.mapLink"
+          target="_blank"
+          class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2"
+        >
+          <base-img
+            class="object-cover w-full h-full lg:absolute lg:h-full"
+            :src="contactData.mapImg"
+            :alt="''"
+          />
+        </a>
+      </div>
+
       <div
         class="
-          max-w-md
           px-4
           py-16
-          mx-auto
-          text-center
-          sm:max-w-2xl sm:py-24 sm:px-6
-          lg:px-8 lg:py-32
+          sm:py-20 sm:px-6
+          lg:px-8
+          lg:max-w-7xl
+          lg:mx-auto
+          lg:grid
+          lg:grid-cols-2
+          lg:min-h-[400px]
         "
       >
-        <h2 class="text-3xl font-extrabold sm:text-4xl">
-          <span class="block text-white">Looking to volunteer?</span>
-          <span class="block text-primary-900">Message us.</span>
-        </h2>
-        <a
-          href="#"
-          class="
-            inline-flex
-            items-center
-            justify-center
-            w-full
-            px-5
-            py-3
-            mt-8
-            text-base
-            font-medium
-            bg-white
-            border border-transparent
-            rounded-md
-            shadow-md
-            text-primary-600
-            hover:bg-primary-50
-            sm:w-auto
-          "
-        >
-          <span>Send us a message, say hi!</span>
-        </a>
+        <div class="relative lg:pl-8 lg:col-start-2 flex items-center">
+          <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
+            <h2
+              class="
+                text-gray-100 text-3xl
+                font-extrabold
+                tracking-tight
+                sm:text-4xl
+              "
+            >
+              {{ contactData.addressH2 }}
+            </h2>
+            <p class="mt-4 text-lg text-gray-300 sm:mt-3">
+              {{ contactData.addressSubH2 }}
+            </p>
+            <p class="mt-4 text-lg text-gray-300 sm:mt-3">
+              Address: {{ siteSettings.orgAddress }}
+            </p>
+            <p class="mt-4 text-lg text-gray-300 sm:mt-3">
+              <a
+                v-if="contactData.addressLink"
+                :href="contactData.addressLink"
+                target="_blank"
+                >View on Google Maps</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </main>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import { metaFromCMS } from '@/utils/utils-meta'
 
 // Tutorial at https://www.netlify.com/blog/2018/09/07/how-to-integrate-netlify-forms-in-a-vue-app/
@@ -298,6 +316,9 @@ export default {
     return {
       contactData,
     }
+  },
+  computed: {
+    ...mapState('netlifycms', ['siteSettings']),
   },
   methods: {
     encode(data) {

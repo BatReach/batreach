@@ -1,7 +1,7 @@
 <template>
   <div class="relative bg-secondary-900">
     <main class="lg:relative">
-      <div class="w-full pt-16 pb-20 mx-auto text-center lg:py-32 lg:text-left">
+      <div class="w-full pt-16 pb-20 mx-auto text-center lg:py-24 lg:text-left">
         <div class="px-4 mx-auto max-w-7xl sm:px-6">
           <div class="lg:w-7/12 xl:pr-16">
             <h1
@@ -34,7 +34,7 @@
             >
               {{ cData.subHeading }}
             </p>
-            <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+            <div class="mt-10 max-w-lg">
               <div
                 class="mt-3 mr-2"
                 v-for="btn in cData.buttons"

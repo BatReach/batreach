@@ -1,19 +1,18 @@
 {
-  "h1": "Help us save the *endangered Spectacled Flying Fox!*",
-  "subHeading": " Help us save the endangered Spectacled Flying Fox, an essential pollinator and seed disperser for the wet tropics! We are volunteers working with locals legislators to protect them. ",
+  "h1Line1": "We rescue and rehabilitate the cutest",
+  "h1Line2": "bats, possums and gliders!",
+  "subHeading": "For over 30 years, Pam has successfully rescued and rehabilitated thousands of animals with the help of her volunteers - both local and international. Help us by volunteering and living with us in the beautiful rainforest of Kuranda, Queensland.",
   "buttons": [
     {
-      "label": "Join us on Patreon",
-      "url": "https://www.patreon.com/BatReach",
+      "label": "Volunteer & Live in the Rainforest",
+      "url": "contact",
       "isPrimary": true
     },
     {
-      "label": "Learn more",
-      "url": "https://batreach.com/#what-we-do",
+      "label": "Far away? Donate via Paypal",
+      "url": "https://www.paypal.com/paypalme/batreach",
       "isPrimary": false
     }
   ],
-  "h1Line1": "Help us save the endangered",
-  "h1Line2": "Spectacled Flying-Fox!",
   "img": "/img/fox5.jpg"
 }
