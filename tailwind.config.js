@@ -6,8 +6,6 @@
  ** DEFAULTS: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  ** Get shades by entering brand color: https://tailwind.ink/
  **
- ** Palette https://coolors.co/073763-f57f20-d5f4cd-523f38-fdee50
- **
  ** Brand Color: primary-500, secondary-900
  */
 
