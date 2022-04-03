@@ -9,17 +9,17 @@
       </div>
     </LazyHydrate>
 
-    <LazyHydrate when-idle>
+    <!-- <LazyHydrate when-idle>
       <landing-events id="events" :headingData="eventsHeadingData" />
-    </LazyHydrate>
+    </LazyHydrate> -->
 
     <LazyHydrate when-visible>
       <LandingFAQ id="faq" :cData="faqData" />
     </LazyHydrate>
 
-    <LazyHydrate never>
+    <!-- <LazyHydrate never>
       <landing-team id="team" :cData="teamData" />
-    </LazyHydrate>
+    </LazyHydrate> -->
   </div>
 </template>
 

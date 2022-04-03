@@ -1,25 +1,24 @@
 {
-  "h2": "Care, Conserve and Community",
-  "heading": "What do we do? ",
-  "subHeading": "We work with bat carers, conservation groups and governments and engage with the community to conserve the Spectacled Flying-fox and enable people to live peacefully with all bats.",
+  "h2": "Rescue, Rehabilitate and Release",
+  "heading": "About us: What do we do?",
+  "subHeading": "For over 30 years, Pam has successfully rehabilitated thousands of animals with the help of her volunteers, local and international!",
   "subSections": [
     {
-      "heading": "Founding member of the Spectacled Flying Fox Recovery Team",
-      "text": "The Spectacled flying-fox is listed as Endangered internationally on the IUCN Red List, nationally under the EPBC Act and under Queensland’s threatened species legislation. The Australian population has fallen by over 80% since 2004.\n\nAs a member of the recovery team, we nominated to uplist the SFF to critically endangered and are preparing  a new recovery plan with specific actions and funding to recover the population.",
-      "btnLabel": "Learn more",
+      "heading": "30+ years of Wildlife Care",
+      "text": "BatReach is a small volunteer-run organization, led by Pam Tully, an experienced wildlife carer of 35+ years. \n\nPam started BatReach in 1990 in Kuranda, mainly focusing on Spectacled Flying Foxes but has always had space for any other critters that came along.",
       "img": "/img/fox2.jpg"
     },
     {
-      "heading": "We work with local rescue groups, other recovery teams",
-      "text": "Each year more than one hundred flying-foxes enter care either as  orphaned pups or as injured adults and may be in care for up to six months. Feeding and medications are expensive.\n\nWe advocate for bat carers and assist them financially through donations we receive.\n\nHelp us help bats by donating, planting a tree and/or by reporting where you see flying-foxes to our Save Our Flying-foxes Watch program\n",
-      "btnLabel": "Report Flying-fox Sighting",
-      "btnUrl": "https://www.surveymonkey.com/r/2C7BMN8",
+      "heading": "Rescue & Rehab",
+      "text": "BatReach was established to help preserve Australia's unique wildlife. Our main area of care is with arboreal animals. This includes bats, possums and gliders, however we do accept any orphaned or injured native animal.\n\n BatReach generally houses up to, and often over, a hundred megabats, a tribe of microbats and any other animals who have come into care like possums, gliders, bandicoots and native rats. \n\n Being part of Far North Queensland Wildlife Rescue, various animals can end up in our care. If we are unable to care for an animal we pass it onto an experienced carer.",
+      "btnLabel": "Report injured wildlife",
+      "btnUrl": "https://www.fnqwildliferescue.org.au/",
       "img": "/img/fox4.jpg"
     },
     {
-      "heading": "Community and school education",
-      "text": "We engage with the community to raise public awareness through community events and school talks. \n\nTo book a talk for your community group or school contact our secretary using our Contact Form",
-      "btnLabel": "Book a talk - Contact Us",
+      "heading": "Volunteer-run / No Govt-Funding",
+      "text": "BatReach runs on donations from the public and receives no government funding. \n\n  There is no cost to volunteer at BatReach and stay at Pam's residence. \n\n The busiest season and best time for hands-on experience with the bats is during the spring months, August-October, the height of the birthing season. This is when there are a lot of orphaned babies to be cared for.",
+      "btnLabel": "Volunteer with us",
       "btnUrl": "/contact",
       "img": "/img/fox9.jpg"
     }
