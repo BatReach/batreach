@@ -90,8 +90,12 @@
             <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
               {{ contactData.h2 }}
             </h2>
-            <p class="text-lg text-gray-500">
+            <!-- <p class="text-lg text-gray-500 mt-3">
               {{ contactData.subH2 }}
+            </p> -->
+
+            <p class="mt-6 text-gray-500 text-sm">
+              {{ contactData.extraNotes }}
             </p>
 
             <base-alert
@@ -289,7 +293,8 @@
               Email us at
               <a :href="'mailto:' + siteSettings.orgEmail">{{
                 siteSettings.orgEmail
-              }}</a>
+              }}</a
+              >contact
             </p>
 
             <p>

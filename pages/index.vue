@@ -5,7 +5,7 @@
         <landing-hero :cData="heroData" />
         <landing-logo-cloud :cData="logoCloudData" />
         <landing-features :cData="featuresData" />
-        <LandingCTA :cData="cta1Data" class="mt-16" />
+        <LandingCTA id="cta" :cData="cta1Data" class="mt-16" />
       </div>
     </LazyHydrate>
 

@@ -2,7 +2,7 @@
   "footerText": "© 2021 BatReach, Kuranda, QLD. Built with ❤️ and 🦇",
   "nav_left_button": {
     "label": "Volunteer & Live in the rainforest",
-    "url": "contact"
+    "url": "/#cta"
   },
   "orgName": "BatReach Rescue and Rehabilitation Centre, kuranda",
   "instagram": "bat.reach",
@@ -41,7 +41,7 @@
     },
     {
       "label": "Volunteer",
-      "url": "/contact"
+      "url": "/#cta"
     }
   ]
 }

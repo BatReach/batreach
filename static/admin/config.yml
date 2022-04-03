@@ -438,6 +438,9 @@ collections:
           - label: "Subheader 2 Short text"
             name: "subH2"
             widget: "text"
+          - label: "Extra notes"
+            name: "extraNotes"
+            widget: "text"
 
           - label: "Address Header 2 Short text"
             name: "addressH2"
