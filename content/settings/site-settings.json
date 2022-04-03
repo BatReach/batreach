@@ -21,7 +21,11 @@
       "url": "/contact"
     }
   ],
+
   "orgAddress": "PO Box 300, Kuranda, Queensland 4881, Australia",
+  "orgPhone": "+61 0740938858",
+  "orgEmail": "info@batreach.com",
+
   "footerLinks": [
     {
       "label": "What do we do?",

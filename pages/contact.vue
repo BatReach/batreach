@@ -90,7 +90,7 @@
             <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
               {{ contactData.h2 }}
             </h2>
-            <p class="mt-4 text-lg text-gray-500 sm:mt-3">
+            <p class="text-lg text-gray-500">
               {{ contactData.subH2 }}
             </p>
 
@@ -186,7 +186,7 @@
                 </div>
               </div>
 
-              <div class="sm:col-span-2">
+              <!-- <div class="sm:col-span-2">
                 <div class="flex justify-between">
                   <label
                     for="how_did_you_hear_about_us"
@@ -208,7 +208,7 @@
                     v-model="form.how_did_you_hear_about_us"
                   />
                 </div>
-              </div>
+              </div> -->
               <base-alert
                 v-if="isFailed && !isSuccess"
                 class="sm:col-span-2"
@@ -258,7 +258,16 @@
         "
       >
         <div class="relative lg:pl-8 lg:col-start-2 flex items-center">
-          <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
+          <div
+            class="
+              max-w-md
+              mx-auto
+              sm:max-w-lg
+              lg:mx-0
+              space-y-3
+              text-lg text-gray-300
+            "
+          >
             <h2
               class="
                 text-gray-100 text-3xl
@@ -269,13 +278,28 @@
             >
               {{ contactData.addressH2 }}
             </h2>
-            <p class="mt-4 text-lg text-gray-300 sm:mt-3">
+
+            <p>
               {{ contactData.addressSubH2 }}
             </p>
-            <p class="mt-4 text-lg text-gray-300 sm:mt-3">
-              Address: {{ siteSettings.orgAddress }}
+
+            <p>Address: {{ siteSettings.orgAddress }}</p>
+
+            <p>
+              Email us at
+              <a :href="'mailto:' + siteSettings.orgEmail">{{
+                siteSettings.orgEmail
+              }}</a>
             </p>
-            <p class="mt-4 text-lg text-gray-300 sm:mt-3">
+
+            <p>
+              Phone:
+              <a :href="'tel:' + siteSettings.orgPhone">{{
+                siteSettings.orgPhone
+              }}</a>
+            </p>
+
+            <p>
               <a
                 v-if="contactData.addressLink"
                 :href="contactData.addressLink"
